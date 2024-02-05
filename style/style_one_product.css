@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura-Medium.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura-Medium.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url(../fonts/Jura-Bold.ttf);
+    font-weight: 700;
+}
+
+
+/* Шапка */
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 147px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #333;
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-family: Jura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.connect__input__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.connect__nav__inpico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 167px;
+    height: 80px;
+}
+
+.input__header {
+    border: 1px solid #333333;
+    height: 34px;
+    color: rgba(51, 51, 51, 0.73);
+    font-family: 'Jura';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    width: 170px;
+    padding-left: 44px;
+
+}
+
+.input__svg {
+    top: 7px;
+    left: 9px;
+    position: relative;
+}
+
+.input__header2 {
+    width: 270px;
+    height: auto;
+}
+
+.img__header {
+    width: 28px;
+    height: 34px;
+
+
+}
+
+.img__header__div {
+    margin-top: 9px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 42px;
+    margin: auto;
+}
+
+
+.xleb_kroski a {
+    color: rgba(149, 65, 27, 0.73);
+    font-size: 20px;
+    font-family: Jura;
+    font-weight: 500;
+}
+
+.xleb_kroski {
+    padding-top: 80px;
+}
+
+.str h2 {
+    color: #95411B;
+    text-shadow: 0px 5px 7px #95411B;
+    font-family: Jura;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.kvadr {
+    width: 1030px;
+    border: 1px #95411B solid;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+.kvadr_icon {
+    position: absolute;
+    width: 40px;
+    top: 15px;
+    right: 15px;
+}
+
+
+
+.kv_plztie img {
+    width: 200px;
+}
+
+
+.btns__sizes .button1__popular__tovari {
+    width: 60px;
+    height: 35px;
+    background-color: transparent;
+    color: #95411B;
+    border: 1px solid #95411B;
+    font-family: Jura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: .3s;
+}
+
+.btns__sizes .button2__popular__tovari {
+    background: #95411B;
+    width: 60px;
+    height: 35px;
+    color: #F3F3F3;
+    border: none;
+    font-family: Jura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.btns__sizes .button1__popular__tovari:hover {
+    background: #95411B;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+.btns__sizes .button2__popular__tovari:hover {
+    background: #95411B;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+.kvadr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    gap: 60px;
+}
+
+.kvadr h3 {
+    color: #95411B;
+    font-size: 40px;
+    font-family: Jura;
+    font-weight: 700;
+}
+
+.artic {
+    color: rgba(149, 65, 27, 0.73);
+    font-size: 20px;
+    font-family: Jura;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+}
+
+.razm {
+    color: rgba(149, 65, 27, 0.73);
+    font-size: 20px;
+    font-family: Jura;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+.kolvo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.plus {
+    padding: 5px;
+    border: 1px #95411B solid;
+    width: 42px;
+    height: 35px;
+    color: #95411B;
+    background:transparent;
+}
+
+h4 {
+    color: #95411B;
+}
+
+.minus {
+    padding: 5px;
+    border: 1px #95411B solid;
+    width: 42px;
+    height: 35px;
+    background-color: #95411B;
+    color: white;
+}
+
+.kor {
+    border: 1px #95411B solid;
+    width: 342px;
+    height: 48px;
+    color: #95411B;
+    font-family: Jura;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    background: transparent;
+   margin-bottom: 20px;
+}
+
+.kv_txt {
+    color: #95411B;
+    text-align: justify;
+    font-family: Jura;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 400px;
+}
+
+footer {
+    background-color: #333333;
+    padding-top: 48px;
+    padding-bottom: 28px;
+}
+
+.footerch1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 147px;
+}
+
+.footerch1 nav a {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-family: Jura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footerch2 h3 {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-family: Jura;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footerch2 p {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-family: Jura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 4px;
+}
+
+.connect__footerchs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+}
+
+.connect__icons__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 294px;
+}

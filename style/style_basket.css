@@ -1,0 +1,171 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 21px 0 85px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Jura";
+}
+
+
+@font-face {
+    font-family: "Jura";
+    src: url(../fonts/Jura-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Jura";
+    src: url(../fonts/Jura-Bold.ttf);
+    font-weight: 700;
+}
+
+h1 {
+    color: #95411B;
+    text-shadow: 0px 5px 7px rgba(149, 65, 27, 0.50);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 62px;
+}
+
+.tovar {
+    display: flex;
+    width: 830px;
+    padding: 20px 15px 20px 22px;
+    border: 2px solid #95411B;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tovar img {
+    margin-right: 190px;
+}
+
+.tovar_text {
+    padding-right: 73px;
+    border-right: 1px solid #95411B;
+}
+
+.tovar_text h2 {
+    color: #95411B;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tovar_text p {
+    color: rgba(149, 65, 27, 0.73);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.size {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.size button {
+    padding: 5px 18px;
+    width: 60px;
+    height: 35px;
+    color: #95411B;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #95411B;
+    cursor: pointer;
+}
+
+.kol {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.kol button {
+    width: 42px;
+    height: 35px;
+    border: 1px solid #95411B;
+    background-color: #95411B;
+    color: white;
+    cursor: pointer;
+}
+
+.k1 {
+    background-color: transparent;
+}
+
+
+.buy {
+    width: 165px;
+    text-align: left;
+    padding: 23px 0 35px 21px;
+    margin-right: 20px;
+}
+
+.buy p {
+    color: #95411B;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.buy button {
+    background-color: transparent;
+    border: 1px solid #95411B;
+    color: #95411B;
+    font-size: 25px;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+
+
+.delete {
+    position: absolute;
+    left: 970px;
+    top: 10px;
+}
+
+.tovar_del {
+    position: relative;
+    margin-bottom:  40px;
+}
+
+.tovar_text_2 {
+    padding-right: 50px;
+    border-right: 1px solid #95411B;
+}
+
+.img2  img{
+    margin-right: 250px;
+}
+
+
+.sum p {
+    color: #95411B;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    text-align: right;
+    padding-right: 70px;
+}
+
+.sum-btn {
+    background-color: #95411B;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 18px 378px;
+    width: 1031px;
+    margin: 0 auto;
+    margin-left: 65px;
+    cursor: pointer;
+    border: none;
+}
